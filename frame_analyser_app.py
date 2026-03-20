@@ -53,7 +53,14 @@ Respond in this exact JSON format only, no other text:
   "emotional_resonance": <score>,
   "narrative": <score>,
   "total": <sum of four scores>,
-  "rationale": "Composition: [explain compositional choices — rule of thirds, leading lines, negative space, symmetry, depth layers, foreground/background relationship]. Lens and technique: [infer the likely lens choice and camera technique — wide angle for vastness, telephoto compression, low angle for power, overhead for vulnerability, shallow depth of field for intimacy, long exposure, handheld for tension]. Light: [explain the quality, direction and colour of light — golden hour, backlight, hard shadows, diffused light, practical lights, colour temperature and what emotional effect each creates]. Shadow and contrast: [explain how shadows are used — silhouettes, chiaroscuro, high contrast vs flat light, what the shadows hide or reveal]. Mood: [explain what emotion this frame evokes and how the specific technical choices create that feeling]. Illustration value: [explain why this frame works as a reference — graphic quality, colour palette, contrast ratio, how it would translate into illustration]."
+  "rationale": "Write a short cinematography analysis as a film professional that know all about direction of photography 
+would — identify what makes this frame exceptional or 
+ordinary, name the specific technique being used and why 
+the director likely chose it, what emotional effect it 
+creates on the viewer, and what an illustrator can steal 
+from it. If you recognise the film, name it. 
+Be specific, not generic help the viewer learn more. Avoid describing what is 
+visually obvious — analyse what is not immediately apparent and explain why is critical. Bring to life the narrative concepts. Use bullet points to make it sharp and easy to read. "
 }"""
 
 DEFAULT_PROMPT = """You are a cinematographer and photography director evaluating frames for use as illustration inspiration.
