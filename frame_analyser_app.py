@@ -53,7 +53,7 @@ Respond in this exact JSON format only, no other text:
   "emotional_resonance": <score>,
   "narrative": <score>,
   "total": <sum of four scores>,
-  "rationale": "<one sharp sentence explaining the score>"
+  "rationale": "Composition: [explain compositional choices — rule of thirds, leading lines, negative space, symmetry, depth layers, foreground/background relationship]. Lens and technique: [infer the likely lens choice and camera technique — wide angle for vastness, telephoto compression, low angle for power, overhead for vulnerability, shallow depth of field for intimacy, long exposure, handheld for tension]. Light: [explain the quality, direction and colour of light — golden hour, backlight, hard shadows, diffused light, practical lights, colour temperature and what emotional effect each creates]. Shadow and contrast: [explain how shadows are used — silhouettes, chiaroscuro, high contrast vs flat light, what the shadows hide or reveal]. Mood: [explain what emotion this frame evokes and how the specific technical choices create that feeling]. Illustration value: [explain why this frame works as a reference — graphic quality, colour palette, contrast ratio, how it would translate into illustration]."
 }"""
 
 DEFAULT_PROMPT = """You are a cinematographer and photography director evaluating frames for use as illustration inspiration.
